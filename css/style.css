@@ -37,8 +37,49 @@ header {
   padding-top: 16px;
 }
 
+/* ====>EFEITO LOGO ARANHA<==== */
+.logo {
+  min-width: 100px;
+  padding: 8px 16px;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  position: relative;
+}
+
+.logo svg path {
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+}
+
+.logo svg:hover path {
+  fill: #F02A2F;
+  -webkit-transform: translate3d(1px, -12px, 0);
+          transform: translate3d(1px, -12px, 0);
+}
+
+.logo::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  width: 2px;
+  height: 0px;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(233, 29, 34, 0)), to(#E91D22));
+  background: linear-gradient(180deg, rgba(233, 29, 34, 0) 0%, #E91D22 100%);
+}
+
+.logo:hover {
+  color: #F4F7FB;
+}
+
+.logo:hover::after {
+  height: 40px;
+}
+
 .navbar {
-  border: 1px solid red;
   max-width: 1440px;
   margin: 0 auto;
   display: -webkit-box;
@@ -108,5 +149,34 @@ header {
 
 .nav-link:hover::after {
   height: 40px;
+}
+
+.nav-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-social svg {
+  margin-left: 16px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.nav-social svg path, .nav-social svg circle {
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+}
+
+.nav-social svg:hover path, .nav-social svg:hover circle {
+  fill: #F02A2F;
+  -webkit-transform: translate3d(0, -2px, 0);
+          transform: translate3d(0, -2px, 0);
 }
 /*# sourceMappingURL=style.css.map */
