@@ -3,7 +3,7 @@
  <img src="https://github.com/marcosaureliodev/OnePageSpiderMan/blob/master/img/spiderman-text.png" width="500px"/></br>
 </div>
 
-# 💻 Projeto OnePAge
+# 💻 Projeto One Page
 Projeto desenvolvido para aperfeiçoar técnicas de ui / ux design!
 
 ### ⌨ Tecnologias usadas
@@ -12,7 +12,7 @@ Projeto desenvolvido para aperfeiçoar técnicas de ui / ux design!
 
 # 👨‍💻 Desenvolvedor 
 [<img src="https://avatars3.githubusercontent.com/u/63154006?s=460&u=42ba311a73dfa829f5ea8cd220fd054ee05314cb&v" width=115 > <br> <sub> Marcos Aurélio </sub>](https://github.com/marcosaureliodev) |
-| :---: |
+| :---: |s
 
 <h1 align='center'> Used Tools </h1>
 
