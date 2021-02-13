@@ -6,7 +6,7 @@ header {
 /* ====>EFEITO LOGO ARANHA<==== */
 .logo {
 
-    min-width: 100px;
+    max-width: 100px;
 
     svg{
 
@@ -73,6 +73,10 @@ header {
     li {
         margin-left: 24px;
     }
+
+    @include responsive(){
+        display: none;
+    }
 }
 
 .nav-link {
@@ -114,6 +118,20 @@ header {
     }
 }
 
+.bx{
+    display: none;
+    
+    @include responsive(){
+        display: block;
+        width: 48px;
+        height: 48px;
+    
+        background-color:$white;
+    
+        border-radius: 8px;
+    }
+}
+
 .nav-social{
     display: flex;
     justify-content: center;
@@ -135,6 +153,10 @@ header {
                 transform: translate3d(0, -2px, 0);
             }
         }
+    }
+
+    @include responsive() {
+        display: none;
     }
 }
 
