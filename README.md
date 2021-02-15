@@ -1,5 +1,6 @@
 
 <div align="center">
+ <img src="https://github.com/marcosaureliodev/OnePageSpiderMan/blob/master/img/spider-man.png" width="350px"/></br>
  <img src="https://github.com/marcosaureliodev/OnePageSpiderMan/blob/master/img/spiderman-text.png" width="500px"/></br>
 </div>
 
@@ -8,7 +9,7 @@ Projeto desenvolvido para aperfeiçoar técnicas de ui / ux design!
 
 ### ⌨ Tecnologias usadas
 
-![HTML5](https://img.shields.io/badge/HTML-HTML5-orange) ![CSS3](https://img.shields.io/badge/Css-CSS3-blue) ![JS](https://img.shields.io/badge/Javascript-JS-yellow) ![sass](https://img.shields.io/badge/scss-sass-pink) ![svg](https://img.shields.io/badge/SVG-SVGinject1.2.3-yellow)
+![HTML5](https://img.shields.io/badge/HTML-HTML5-orange) ![CSS3](https://img.shields.io/badge/Css-CSS3-blue) ![JS](https://img.shields.io/badge/Javascript-JS-yellow) ![sass](https://img.shields.io/badge/scss-sass-pink) ![svg](https://img.shields.io/badge/SVG-SVGinject1.2.3-yellow) ![svg](https://img.shields.io/badge/GSAP-Gsap-green)
 
 # 👨‍💻 Desenvolvedor 
 [<img src="https://avatars3.githubusercontent.com/u/63154006?s=460&u=42ba311a73dfa829f5ea8cd220fd054ee05314cb&v" width=115 > <br> <sub> Marcos Aurélio </sub>](https://github.com/marcosaureliodev) |
