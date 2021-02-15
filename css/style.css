@@ -383,7 +383,8 @@ header {
     display: block;
     width: 48px;
     height: 48px;
-    background-color: #EDF1F7;
+    -webkit-filter: invert(1);
+            filter: invert(1);
     border-radius: 8px;
   }
 }
@@ -432,14 +433,16 @@ header {
 @-webkit-keyframes logo-spiderman {
   0% {
     stroke-width: 0;
+    stroke-dasharray: 1 100;
     fill: transparent;
   }
   25% {
     stroke-width: 1;
     fill: transparent;
+    stroke-dasharray: 100 0;
   }
   60%, 100% {
-    stroke-width: 0;
+    stroke-width: 0.3;
     fill: #E5E9EF;
   }
 }
@@ -447,14 +450,16 @@ header {
 @keyframes logo-spiderman {
   0% {
     stroke-width: 0;
+    stroke-dasharray: 1 100;
     fill: transparent;
   }
   25% {
     stroke-width: 1;
     fill: transparent;
+    stroke-dasharray: 100 0;
   }
   60%, 100% {
-    stroke-width: 0;
+    stroke-width: 0.3;
     fill: #E5E9EF;
   }
 }

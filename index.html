@@ -39,7 +39,7 @@
                     <li><a href="" class="nav-link">Home</a></li>
                     <li><a href="" class="nav-link">Story</a></li>
                     <li><a href="" class="nav-link">wallpaper</a></li>
-                    <li><a href="" class="nav-link">#beYouself</a></li>
+                    <li><a href="" class="nav-link"  style="color: #EA1D22; font-style: italic;">#BeYourself</a></li>
                 </ul>
             </div>
             <div class="mr-2 nav-social">
@@ -48,7 +48,9 @@
                 <img src="/img/svg/icon-youtube.svg" onload="SVGInject(this)" alt="icon-youtube">
                 <img src="/img/svg/icon-twitter.svg" onload="SVGInject(this)" alt="icon-twitter">
             </div>
-            <div class="bx mr-2"></div>
+            <div class="mr-2">
+                <img src="/img/svg/list.svg" class="bx" >
+            </div>
         </nav>
     </header>
 
@@ -63,46 +65,45 @@
     <!-- ==== CONTAINER ==== -->
 
     <section class="container">
-        <div class="container-item-1">
+        <div class="container-item-1 item-1">
             <div class="px-1">
                 <img src="/img/spiderman-text.png" onload="SVGInject(this)" alt="img-spiderman-text">
             </div>
-            <p class="my-2 ">
+            <p class="my-2 item-2 ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non lectus interdum porttitor mi. Consequat
                 tellus tellus fringilla convallis sit dictumst lorem imperdiet. Elementum tellus, faucibus eu, lorem sed
                 habitasse.
             </p>
 
-            <p>
+            <div class="item-3">
                 <a href="" class="btn">Pre-order now</a>
                 <a href="" class="ml-2 btn-secondary">watch the tease</a>
-            </p>
+            </div>
 
-            <div class="mt-2 flex align-items-center">
+            <div class="mt-2 flex align-items-center item-4">
                 <img src="/img/svg/ps.svg" class=" w-auto" onload="SVGInject(this)">
                 <img src="/img/svg/logo-marvel.svg" class="ml-2 w-auto" onload="SVGInject(this)">
             </div>
         </div>
-        <div class="container-item-2">
+        <div class="container-item-2 item-5">
             <div class="js-tilt">
                 <img src="/img/spider-man.png" class="spiderman" onload="SVGInject(this)">
             </div>
         </div>
     </section>
 
-    <!-- ==== SCRIPTS ==== -->
+    <!-- ==== SCRIPTS JS ==== -->
 
     <script src="js/app.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
-        integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
-        crossorigin="anonymous"></script>
+    
     <script>
-        $('.js-tilt').tilt({
-            scale: 1,
-            perspective: 3000,
-        });
+
+      $('.js-tilt').tilt({
+        perspective: 2200
+    });
     </script>
 
 </body>
